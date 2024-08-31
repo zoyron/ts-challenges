@@ -85,3 +85,14 @@ function wordCount(): number | undefined {
     console.log(error.message);
   }
 }
+
+// This function returns the character count in the given file
+function charCount(): number | undefined {
+  try {
+    let data: string = fs.readFileSync(fileName, "utf-8");
+    return data.length;
+  } catch (e: unknown) {
+    const error = e as Error;
+    console.log(error.message);
+  }
+}
