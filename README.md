@@ -11,6 +11,7 @@ I'll be adding:
 
 Languages used - Typescript(mostly), Javascript(seldom).
 
+> Note: Most of the longer comments in the code are a note to self, if possible dont dwell on them.
 
 ## Challenges
 

@@ -1,5 +1,4 @@
 import * as fs from "fs";
-import { listenerCount } from "process";
 
 let args: string | undefined | null = process.argv[2];
 let fileName: string = process.argv[3];
