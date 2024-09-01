@@ -1,0 +1,10 @@
+{
+  "name": "systems",
+  "version": "1.0.0",
+  "description": "Systems programming using typescript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  }
+}
